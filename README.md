@@ -8,4 +8,4 @@ DualElectron 是一个基于 Electron Forge 的 TypeScript 桌面端脚手架。
 pnpm dlx @break_happy/create-dual-electron my-desktop-app
 ```
 
-生成的应用在开发模式加载 DualVite 的 Vite URL；在本地文件模式和生产打包时，加载 DualVite 的 `dist-filelocal/` 产物。模板仅包含 Electron Main Process、Preload、通用 IPC、打包配置与 Renderer 资源同步能力，不包含任何业务 UI。
+生成的应用在开发模式加载 DualVite 的 Vite URL；在本地文件模式和生产打包时，加载 DualVite 的 `dist-filelocal/` 产物。
