@@ -1,0 +1,11 @@
+node_modules/
+out/
+.vite/
+resources/renderer/
+coverage/
+*.log
+*.tgz
+.env.local
+.DS_Store
+.idea/
+.vscode/
