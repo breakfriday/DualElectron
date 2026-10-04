@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <mask id="pulse-cutout">
+    <rect width="256" height="256" fill="#fff"/>
+    <path fill="#000" d="M47 137h47l20-47c3-7 13-7 16 1l26 82 17-33c2-4 6-7 11-7h45v20h-39l-25 48c-4 7-14 6-17-2l-27-83-13 30c-2 6-7 10-13 10H47z"/>
+  </mask>
+  <path fill="#000" mask="url(#pulse-cutout)" d="M128 14 224 69v118l-96 55-96-55V69z"/>
+</svg>
