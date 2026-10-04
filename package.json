@@ -1,14 +1,23 @@
 {
   "name": "@break_happy/create-dual-electron",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create an Electron Forge desktop shell for a DualVite renderer.",
   "type": "module",
   "bin": {
     "create-dual-electron": "./bin/create-dual-electron.mjs"
   },
-  "files": ["bin", "templates", "README.md", "LICENSE"],
-  "engines": { "node": ">=20.19.0" },
-  "dependencies": { "@clack/prompts": "^1.8.1" },
+  "files": [
+    "bin",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.8.1"
+  },
   "license": "MIT",
   "scripts": {
     "check": "node --check bin/create-dual-electron.mjs",
